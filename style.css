@@ -1,0 +1,115 @@
+
+body {
+    background-color: #000;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(217, 12%, 63%);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.card-container {
+    background-color: hsl(216, 12%, 8%);
+    width: 343px;
+    margin: 110px auto 20px;
+    border-radius: 20px;
+    padding: 30px
+}
+
+.starImage, .rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50%;
+    user-select: none;
+    transition: all 0.1s;
+    border: none;
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+}
+
+h2 {
+    padding: 20px 0px 10px;
+    color: #FFF;
+}
+
+p {
+    line-height: 25px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+.rating {
+    cursor: pointer;
+    outline: none;
+}
+
+.rating:hover {
+    background-color: hsl(216, 12%, 54%);
+    color: #FFF;
+}
+
+.rating:focus {
+    background-color: hsl(25, 97%, 53%);
+    color: #FFF;
+}
+
+.rateSubmit {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 50px;
+    width: 100%;
+    padding: 12px;
+    font-family: 'Overpass', sans-serif;
+    color: #FFF;
+    font-weight: 700;
+    cursor: pointer;
+    user-select: none;
+    letter-spacing: 2px;
+}
+
+.rateSubmit:active {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+
+
+/* after submit */
+
+.thanksImage {
+    text-align: center;
+    display: none;
+    margin-bottom: 30px;
+}
+
+.afterRating-container {
+    display: none;
+    text-align: center;
+}
+
+.userSelectedRateContainer {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 18%);
+    padding: 6px 12px;
+    border-radius: 40px;
+}
+
+
+
+.attribution {
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .attribution a {
+    color: hsl(228, 47%, 61%);
+  }
